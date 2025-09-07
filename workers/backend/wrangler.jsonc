@@ -1,13 +1,13 @@
 {
-	"$schema": "node_modules/wrangler/config-schema.json",
-	"name": "emailkit-backend",
-	"main": "src/index.ts",
-	"compatibility_date": "2025-09-06",
-	"assets": {
-		"binding": "ASSETS",
-		"directory": "./public"
-	},
-	"observability": {
-		"enabled": true
-	}
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "emailkit-backend",
+  "main": "src/index.ts",
+  "compatibility_date": "2025-09-06",
+  "assets": {
+    "binding": "ASSETS",
+    "directory": "./public"
+  },
+  "observability": {
+    "enabled": true
+  }
 }
